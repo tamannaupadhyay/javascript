@@ -1,0 +1,18 @@
+var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+function golfScore(par, strokes) {
+ if(strokes===1)
+ {return "Hole-in-one!";} 
+else if(strokes<=(par-2))
+{return "Eagle";}
+else if(strokes===(par-1))
+{"Birdie";}
+else if(strokes===par)
+{"Par";}
+else if(strokes===(par+1))
+{"Bogey";}
+else if(strokes===(par+2))
+{"Double Bogey";}
+else if(strokes>=(par+3))
+{"Go Home!";}
+}
+golfScore(4,3);
