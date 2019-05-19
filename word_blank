@@ -1,0 +1,8 @@
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+ 
+  var result = "";
+ var result="my"+myAdjective+" "+myNoun+" "+myVerb+"very"+myAdverb+".";
+ 
+  return result;
+}
+wordBlanks("dog", "big", "ran", "quickly");
